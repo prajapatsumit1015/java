@@ -1,0 +1,15 @@
+package com.java;
+
+import java.awt.*;
+
+public class createframe {
+    public static void main(String[] args) {
+        Frame frame=new Frame();
+        int width = 300;
+ 
+       int height = 300;
+ 
+frame.setSize(width, height);
+        frame.setVisible(true);
+    }
+}
